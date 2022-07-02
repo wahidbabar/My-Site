@@ -1,0 +1,144 @@
+body {
+  color: #F0EBE3;
+  margin: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5rem;
+  /*rem is root em. Using rem enables us to chagne font-size of the element irrespective of the parent elements. */
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #3F4E4F;
+  border-width: 5px;
+  width: 5%;
+  margin: 50px auto;
+}
+a{
+  color: #2C3639;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+
+
+h2 {
+  padding-bottom: 10px;
+  color: #66BFBF;
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+.top-container {
+  background-color: #1A4D2E;
+  position: relative;
+  padding-top: 150px;
+}
+
+.middle-conatiner {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #ADCF9F;
+  padding: 40px 0 20px;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 200px;
+  top: 30px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 200px;
+  top: 360px;
+}
+
+.uline {
+  text-decoration: underline;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.copyright{
+ color: #EAF6F6;
+ font-size: 0.75rem;
+ padding-top: 10px;
+}
+.automation-img {
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+
+.webdesign-img {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto;
+}
+
+.getintouchh3 {
+  text-align: center;
+}
+
+.btn {
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  font-family: 'Montserrat', sans-serif;
+  color: #f5f5f5;
+  font-size: 20px;
+  background: #377D71;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #009dff;
+  background-image: -webkit-linear-gradient(top, #009dff, #174563);
+  background-image: -moz-linear-gradient(top, #009dff, #174563);
+  background-image: -ms-linear-gradient(top, #009dff, #174563);
+  background-image: -o-linear-gradient(top, #009dff, #174563);
+  background-image: linear-gradient(to bottom, #009dff, #174563);
+  text-decoration: none;
+
+
+  }
+  /* relative positioning doesn't affect the positioning of other elements on the screen. */
+  /* absolute positioning positions the element with respect to its parent element  */
